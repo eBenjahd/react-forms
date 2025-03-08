@@ -1,0 +1,16 @@
+div.main {
+    margin: 50px;
+    box-sizing: border-box;
+    background-image: url(./src/assets/background/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 100vh;
+
+
+    div.form{
+        width: 40%;
+        padding: 40px;
+    }
+
+}
