@@ -1,12 +1,11 @@
 import './SignUp.scss'
-import GoogleLogo from '../googleLogo/GoogleLogo'
+import Button from '../button/Button'
 
 function SignUp() {
   return (
-    <button>
-      <GoogleLogo />
-      <p>Sign up with Google</p>
-    </button >
+    <>
+      <Button signup='Sign up with Google'/>
+    </>
   )
 }
 
