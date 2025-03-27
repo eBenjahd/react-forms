@@ -1,12 +1,10 @@
-
-// import Return from './components/Return'
-import Nav from './components/nav/Nav'
+import Nav from '../../../Nav/Nav'
 import './Header.scss'
 
 function Header() {
   return (
     <>  
-        <Nav />
+        <Nav signup={true}/>
     </>
   )
 }
